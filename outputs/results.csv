@@ -1,0 +1,5 @@
+tag,model,lr,epochs,frozen,best_val_macro_f1,val_acc
+baseline_cnn,baseline,0.001,20,False,0.7053,0.7256
+mnv3_frozen_lr1e-3,mobilenet,0.001,8,True,0.862,0.8734
+mnv3_finetune_lr3e-4,mobilenet,0.0003,10,False,0.9267,0.9314
+mnv3_finetune_lr1e-4,mobilenet,0.0001,10,False,0.9012,0.9182
